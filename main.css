@@ -31,7 +31,13 @@ button {
     padding: 5px;
 }
 
+article {
+    margin-top: 50px;
+}
 
+.sub-title {
+    font-family: 'Pacifico', cursive;
+}
 /**** heading ****/
 header {
     float: left;
@@ -127,9 +133,15 @@ nav {
 }
 
 /* Nav color */
+
+.active {
+   color:#999;
+}
+
 a {
     color: #FFF;   
 }
+
 
 nav a, nav a:visited  {
     color: #fff;   
