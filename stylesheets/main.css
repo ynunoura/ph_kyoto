@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+footer {
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    box-shadow: 0;
+    background-color: #4B4E6D;
+    border: none;
+    color: #fff; 
+    margin-top: 20px;
+    padding: 5px;
+}
+
+article {
+    margin-top: 50px;
+}
+
+.sub-title {
+    font-family: 'Pacifico', cursive;
+}
+/**** heading ****/
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight:normal;
+    line-height:0.8em;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight:normal;
+}
+
+/**** nav **/
+nav {
+    text-align:center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style:none;
+    margin:0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    font-weight:800;
+    padding: 15px 10px;
+}
+
+/*** Post ***/
+
+.post {
+    margin-top: 80px;
+}
+
+
+
+/*** Footer ***/
+
+
+
+footer {
+    font-size: 0.75em;
+    text-align:center;
+    padding-top: 50px;
+    color:#999;
+    clear:both;
+}
+
+.social-icon {
+    width:40px;
+    height:40px;
+    margin: 0 5px;
+}
+
+/*** COLOR ***/
+/* site body */
+body {
+    background-color:#fff;
+    color: #999;   
+}
+
+/* Post header and small text */
+
+.post-header {
+    color: #493548;
+}
+
+/* nav background on mobile */
+nav {
+    background: #3A435E;   
+}
+
+/* Nav color */
+
+.active {
+   color:#999;
+}
+
+a {
+    color: #FFF;   
+}
+
+
+nav a, nav a:visited  {
+    color: #fff;   
+}
+
+/* Selected nav link*/
+nav a.selected, nav a:hover {
+    color: #5C6672;   
+}
